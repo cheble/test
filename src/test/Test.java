@@ -1,5 +1,7 @@
 package test;
-include test.models.Planet;
+import test.models.Planet;
+import test.view.InfoView;
+import test.view.PlanetInfoView;
 
 public class Test {
 
@@ -12,7 +14,7 @@ public class Test {
 
 	}
 	
-	public showPlanetDialog(Planet model) {
+	public void showPlanetDialog(Planet model) {
 		InfoView view = new PlanetInfoView(model);
 		view.showView();
 	}
