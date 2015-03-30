@@ -1,7 +1,9 @@
 package test;
 import javax.swing.JFrame;
 
+import test.models.Moon;
 import test.models.Planet;
+import test.models.Star;
 import test.view.InfoView;
 import test.view.PlanetInfoView;
 
@@ -14,8 +16,13 @@ public class Test {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Star sun = new Star();
+		Planet earth = new Planet();
+		Moon moon = new Moon();
+		Planet mars = new Planet();
+		Planet mercury = new Planet();
+		Planet venus = new Planet();
+		
 	}
 	
 	public void showPlanetDialog(Planet model) {
