@@ -1,12 +1,16 @@
 package test;
+import javax.swing.JFrame;
+
 import test.models.Planet;
 import test.view.InfoView;
 import test.view.PlanetInfoView;
 
 public class Test {
+	
+	private JFrame _frame;
 
 	public Test() {
-		// TODO Auto-generated constructor stub
+		_frame = new JFrame("Test");
 	}
 
 	public static void main(String[] args) {
