@@ -14,5 +14,13 @@ public class InfoView extends JPanel{
 		dlg.add(this);
 		dlg.setVisible(true);
 	}
+	
+	public int isOpened() {
+		if (this.isShowing()) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
 
 }
