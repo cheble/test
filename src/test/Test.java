@@ -23,6 +23,10 @@ public class Test {
 		Planet mercury = new Planet();
 		Planet venus = new Planet();
 		
+		Test test = new Test();
+		test._frame.setVisible(true);
+		
+		
 	}
 	
 	public void showPlanetDialog(Planet model) {
