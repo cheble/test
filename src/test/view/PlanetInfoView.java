@@ -9,9 +9,5 @@ public class PlanetInfoView extends InfoView {
 		// set planet info
 		// set planet image
 	}
-	
-	public showMoonDialogs() {
-		// show the dialogs for the planet moons
-	}
 
 }
